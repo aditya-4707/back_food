@@ -1,0 +1,32 @@
+{
+  "words": [
+    {"text": "HERBAL", "confidence": 96, "bbox": [10, 10, 80, 30]},
+    {"text": "SHAMPOO", "confidence": 95, "bbox": [85, 10, 160, 30]},
+    {"text": "Net", "confidence": 92, "bbox": [10, 40, 40, 55]},
+    {"text": "Quantity:", "confidence": 90, "bbox": [45, 40, 110, 55]},
+    {"text": "200ml", "confidence": 97, "bbox": [115, 40, 160, 55]},
+    {"text": "MRP", "confidence": 99, "bbox": [10, 60, 45, 75]},
+    {"text": "Rs.", "confidence": 95, "bbox": [50, 60, 75, 75]},
+    {"text": "299.00", "confidence": 98, "bbox": [80, 60, 130, 75]},
+    {"text": "MFD:", "confidence": 91, "bbox": [10, 80, 50, 95]},
+    {"text": "01/2025", "confidence": 94, "bbox": [55, 80, 110, 95]},
+    {"text": "Use", "confidence": 88, "bbox": [10, 100, 40, 115]},
+    {"text": "by:", "confidence": 87, "bbox": [45, 100, 65, 115]},
+    {"text": "12/2026", "confidence": 93, "bbox": [70, 100, 130, 115]},
+    {"text": "Manufactured", "confidence": 89, "bbox": [10, 120, 100, 135]},
+    {"text": "by:", "confidence": 88, "bbox": [105, 120, 125, 135]},
+    {"text": "Nature", "confidence": 92, "bbox": [130, 120, 180, 135]},
+    {"text": "Care", "confidence": 91, "bbox": [185, 120, 220, 135]},
+    {"text": "Labs", "confidence": 90, "bbox": [225, 120, 260, 135]},
+    {"text": "Country", "confidence": 89, "bbox": [10, 140, 70, 155]},
+    {"text": "of", "confidence": 88, "bbox": [75, 140, 90, 155]},
+    {"text": "Origin:", "confidence": 90, "bbox": [95, 140, 140, 155]},
+    {"text": "India", "confidence": 96, "bbox": [145, 140, 185, 155]},
+    {"text": "Customer", "confidence": 85, "bbox": [10, 160, 75, 175]},
+    {"text": "Care:", "confidence": 84, "bbox": [80, 160, 115, 175]},
+    {"text": "support@naturecare.in", "confidence": 96, "bbox": [120, 160, 270, 175]},
+    {"text": "Batch", "confidence": 87, "bbox": [10, 180, 50, 195]},
+    {"text": "No:", "confidence": 86, "bbox": [55, 180, 80, 195]},
+    {"text": "B2025X", "confidence": 94, "bbox": [85, 180, 140, 195]}
+  ]
+}

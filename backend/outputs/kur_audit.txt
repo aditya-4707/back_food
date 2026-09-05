@@ -1,0 +1,73 @@
+=================================================================
+   LEGAL METROLOGY COMPLIANCE AUDIT REPORT
+   Legal Metrology (Packaged Commodities) Rules — Rule 6
+=================================================================
+  Source      : kur.jpeg
+  Generated   : 2026-09-06 00:10:03
+  Status      : ⚠️   NEEDS VERIFICATION
+-----------------------------------------------------------------
+  Total Rules : 9
+  ✅ Passed   : 6
+  ⚠️  Review   : 3
+  ❌ Violated : 0
+=================================================================
+
+  EXTRACTED FIELDS
+  ---------------------------------------------------------------
+  MRP (Rs.)                : 25.0
+  Confidence                 [███████░░░░░░░░░░░░░] 37%
+  Net Quantity             : 80.2 g
+  Confidence                 [████████████████░░░░] 81%
+  Mfg. Date                : [NOT DETECTED]
+  Best Before / Use By     : Best Before / Use By label present (da
+  Confidence                 [████████████░░░░░░░░] 60%
+  Product Name             : KURKURE NAMKEEN
+  Confidence                 [███████████████████░] 95%
+  Country of Origin        : India
+  Confidence                 [███████████████░░░░░] 75%
+  Manufacturer / Packer    : BY: Atd: Ku dents PepsiCo India Pvt: S
+  Confidence                 [███████░░░░░░░░░░░░░] 33%
+  Consumer Care            : FEEDBACK@PEPSICO.COM
+  Confidence                 [██████████████████░░] 89%
+  Batch / Lot Number       : 239J
+  Confidence                 [███████████░░░░░░░░░] 55%
+  Unit Sale Price (Rs/g)   : 88.0
+  Confidence                 [█░░░░░░░░░░░░░░░░░░░] 4%
+
+=================================================================
+  ✅  PASSED CHECKS
+  ---------------------------------------------------------------
+  [PC-003]  Common / Generic Name
+         Detected   : KURKURE NAMKEEN
+         Confidence : [███████████████████░] 95%
+  [PC-004]  Net Quantity
+         Detected   : 80.2 g
+         Confidence : [████████████████░░░░] 81%
+  [PC-006]  Best Before / Use By
+         Detected   : Best Before / Use By label present (date unreadable by 
+         Confidence : [████████████░░░░░░░░] 60%
+  [PC-007]  Maximum Retail Price
+         Detected   : 25.0
+         Confidence : [███████░░░░░░░░░░░░░] 37%
+  [PC-008]  Consumer Care Details
+         Detected   : FEEDBACK@PEPSICO.COM
+         Confidence : [██████████████████░░] 89%
+  [PC-009]  Batch / Lot / Code Number
+         Detected   : 239J
+         Confidence : [███████████░░░░░░░░░] 55%
+
+=================================================================
+  ⚠️   NEEDS VERIFICATION
+  ---------------------------------------------------------------
+  [PC-001]  Manufacturer / Packer / Importer  (🔴 HIGH)
+         ↳ Detected with low confidence (33%). Manual verification recommended.
+         Detected   : BY: Atd: Ku dents PepsiCo India Pvt: S56k
+  [PC-005]  Manufacturing / Packing Date  (🟡 MEDIUM)
+         ↳ Month and year of manufacture, packing or import could not be detected.
+  [PC-010]  Unit Sale Price  (🟡 MEDIUM)
+         ↳ Detected with low confidence (4%). Manual verification recommended.
+         Detected   : 88.0
+
+=================================================================
+  END OF AUDIT REPORT
+=================================================================

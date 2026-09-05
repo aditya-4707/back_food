@@ -1,0 +1,73 @@
+=================================================================
+   LEGAL METROLOGY COMPLIANCE AUDIT REPORT
+   Legal Metrology (Packaged Commodities) Rules — Rule 6
+=================================================================
+  Source      : ne.jpeg
+  Generated   : 2026-09-06 00:39:52
+  Status      : ⚠️   NEEDS VERIFICATION
+-----------------------------------------------------------------
+  Total Rules : 9
+  ✅ Passed   : 6
+  ⚠️  Review   : 3
+  ❌ Violated : 0
+=================================================================
+
+  EXTRACTED FIELDS
+  ---------------------------------------------------------------
+  MRP (Rs.)                : 725.0
+  Confidence                 [███████████░░░░░░░░░] 54%
+  Net Quantity             : 500 g
+  Confidence                 [█████████████░░░░░░░] 65%
+  Mfg. Date                : [NOT DETECTED]
+  Best Before / Use By     : Best Before / Use By label present (da
+  Confidence                 [████████████░░░░░░░░] 60%
+  Product Name             : CASHEW
+  Confidence                 [████████████████████] 100%
+  Country of Origin        : India
+  Confidence                 [███████████████░░░░░] 75%
+  Manufacturer / Packer    : by: RELIANCE RETAIL LIMITED 3rd Floor 
+  Confidence                 [█████████░░░░░░░░░░░] 46%
+  Consumer Care            : CC_RRL@RIL.COM
+  Confidence                 [█████████████████░░░] 85%
+  Batch / Lot Number       : KV061705
+  Confidence                 [█████░░░░░░░░░░░░░░░] 24%
+  Unit Sale Price (Rs/g)   : 1.45
+  Confidence                 [█████░░░░░░░░░░░░░░░] 24%
+
+=================================================================
+  ✅  PASSED CHECKS
+  ---------------------------------------------------------------
+  [PC-001]  Manufacturer / Packer / Importer
+         Detected   : by: RELIANCE RETAIL LIMITED 3rd Floor Court House, Tila
+         Confidence : [█████████░░░░░░░░░░░] 46%
+  [PC-003]  Common / Generic Name
+         Detected   : CASHEW
+         Confidence : [████████████████████] 100%
+  [PC-004]  Net Quantity
+         Detected   : 500 g
+         Confidence : [█████████████░░░░░░░] 65%
+  [PC-006]  Best Before / Use By
+         Detected   : Best Before / Use By label present (date unreadable by 
+         Confidence : [████████████░░░░░░░░] 60%
+  [PC-007]  Maximum Retail Price
+         Detected   : 725.0
+         Confidence : [███████████░░░░░░░░░] 54%
+  [PC-008]  Consumer Care Details
+         Detected   : CC_RRL@RIL.COM
+         Confidence : [█████████████████░░░] 85%
+
+=================================================================
+  ⚠️   NEEDS VERIFICATION
+  ---------------------------------------------------------------
+  [PC-005]  Manufacturing / Packing Date  (🟡 MEDIUM)
+         ↳ Month and year of manufacture, packing or import could not be detected.
+  [PC-009]  Batch / Lot / Code Number  (🟡 MEDIUM)
+         ↳ Detected with low confidence (24%). Manual verification recommended.
+         Detected   : KV061705
+  [PC-010]  Unit Sale Price  (🟡 MEDIUM)
+         ↳ Detected with low confidence (24%). Manual verification recommended.
+         Detected   : 1.45
+
+=================================================================
+  END OF AUDIT REPORT
+=================================================================

@@ -1,0 +1,190 @@
+{
+  "extracted_fields": {
+    "mrp": {
+      "value": 25.0,
+      "confidence": 0.37,
+      "status": "found",
+      "evidence": "\"MRP Rs.25/- (INCL: OF ALL TAXEs) GURUGRAM -",
+      "bbox": [
+        147,
+        907,
+        419,
+        949
+      ]
+    },
+    "net_quantity": {
+      "value": "80.2 g",
+      "confidence": 0.81,
+      "status": "found",
+      "evidence": "Recovered from OCR misread '802mg' → 80.2 g",
+      "bbox": [
+        317,
+        815,
+        359,
+        831
+      ]
+    },
+    "manufacturing_date": null,
+    "best_before": {
+      "value": "Best Before / Use By label present (date unreadable by OCR — manual verification required)",
+      "confidence": 0.6,
+      "status": "found",
+      "evidence": "USE BY",
+      "bbox": null
+    },
+    "product_name": {
+      "value": "KURKURE NAMKEEN",
+      "confidence": 0.95,
+      "status": "found",
+      "evidence": "Brand header 'KURKURE' detected",
+      "bbox": null
+    },
+    "country_of_origin": {
+      "value": "India",
+      "confidence": 0.75,
+      "status": "found",
+      "evidence": "Country of Origin inferred from Indian city/address",
+      "bbox": null
+    },
+    "manufacturer": {
+      "value": "BY: Atd: Ku dents PepsiCo India Pvt: S56k",
+      "confidence": 0.33,
+      "status": "found",
+      "evidence": "'MARKETED BY: Atd: Ku dents PepsiCo India Pvt: S56k",
+      "bbox": [
+        566,
+        614,
+        674,
+        640
+      ]
+    },
+    "consumer_care": {
+      "value": "FEEDBACK@PEPSICO.COM",
+      "confidence": 0.89,
+      "status": "found",
+      "evidence": "EMAIL FEEDBACK@PEPSICO.COM",
+      "bbox": [
+        585,
+        985,
+        875,
+        1022
+      ]
+    },
+    "batch_number": {
+      "value": "239J",
+      "confidence": 0.55,
+      "status": "found",
+      "evidence": "Alphanumeric batch code candidate: 239J",
+      "bbox": null
+    },
+    "unit_sale_price": {
+      "value": 88.0,
+      "confidence": 0.04,
+      "status": "found",
+      "evidence": "UNIT SALE PRICE ; 088 PERG OR EMAIL US AT",
+      "bbox": [
+        146,
+        972,
+        262,
+        1002
+      ]
+    }
+  },
+  "compliance_report": {
+    "status": "NEEDS_VERIFICATION",
+    "passed": [
+      {
+        "rule_id": "PC-003",
+        "field": "product_name",
+        "name": "Common / Generic Name",
+        "message": "Required information detected.",
+        "confidence": 0.95,
+        "source": "Rule 6",
+        "value": "KURKURE NAMKEEN"
+      },
+      {
+        "rule_id": "PC-004",
+        "field": "net_quantity",
+        "name": "Net Quantity",
+        "message": "Required information detected.",
+        "confidence": 0.81,
+        "source": "Rule 6",
+        "value": "80.2 g"
+      },
+      {
+        "rule_id": "PC-006",
+        "field": "best_before",
+        "name": "Best Before / Use By",
+        "message": "Required information detected.",
+        "confidence": 0.6,
+        "source": "Rule 6",
+        "value": "Best Before / Use By label present (date unreadable by OCR — manual verification required)"
+      },
+      {
+        "rule_id": "PC-007",
+        "field": "mrp",
+        "name": "Maximum Retail Price",
+        "message": "Required information detected.",
+        "confidence": 0.37,
+        "source": "Rule 6",
+        "value": "25.0"
+      },
+      {
+        "rule_id": "PC-008",
+        "field": "consumer_care",
+        "name": "Consumer Care Details",
+        "message": "Required information detected.",
+        "confidence": 0.89,
+        "source": "Rule 6",
+        "value": "FEEDBACK@PEPSICO.COM"
+      },
+      {
+        "rule_id": "PC-009",
+        "field": "batch_number",
+        "name": "Batch / Lot / Code Number",
+        "message": "Required information detected.",
+        "confidence": 0.55,
+        "source": "Rule 6",
+        "value": "239J"
+      }
+    ],
+    "verification": [
+      {
+        "rule_id": "PC-001",
+        "field": "manufacturer",
+        "name": "Manufacturer / Packer / Importer",
+        "message": "Detected with low confidence (33%). Manual verification recommended.",
+        "confidence": 0.33,
+        "source": "Rule 6",
+        "severity": "HIGH",
+        "value": "BY: Atd: Ku dents PepsiCo India Pvt: S56k"
+      },
+      {
+        "rule_id": "PC-005",
+        "field": "manufacturing_date",
+        "name": "Manufacturing / Packing Date",
+        "message": "Month and year of manufacture, packing or import could not be detected.",
+        "confidence": 0.0,
+        "source": "Rule 6",
+        "severity": "MEDIUM"
+      },
+      {
+        "rule_id": "PC-010",
+        "field": "unit_sale_price",
+        "name": "Unit Sale Price",
+        "message": "Detected with low confidence (4%). Manual verification recommended.",
+        "confidence": 0.04,
+        "source": "Rule 6",
+        "severity": "MEDIUM",
+        "value": "88.0"
+      }
+    ],
+    "violations": [],
+    "summary": {
+      "total_rules": 9,
+      "passed": 6,
+      "needs_review": 3,
+      "violations": 0
+    }
+  }
+}

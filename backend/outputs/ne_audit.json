@@ -1,0 +1,185 @@
+{
+  "extracted_fields": {
+    "mrp": {
+      "value": 725.0,
+      "confidence": 0.54,
+      "status": "found",
+      "evidence": "MRp 725,00 (inclusive ofall taxes) USP ? 1,45per",
+      "bbox": [
+        140,
+        694,
+        202,
+        746
+      ]
+    },
+    "net_quantity": {
+      "value": "500 g",
+      "confidence": 0.65,
+      "status": "found",
+      "evidence": "500g",
+      "bbox": null
+    },
+    "manufacturing_date": null,
+    "best_before": {
+      "value": "Best Before / Use By label present (date unreadable by OCR — manual verification required)",
+      "confidence": 0.6,
+      "status": "found",
+      "evidence": "USEBH",
+      "bbox": null
+    },
+    "product_name": {
+      "value": "CASHEW",
+      "confidence": 1.0,
+      "status": "found",
+      "evidence": "Header product descriptor: CASHEW",
+      "bbox": null
+    },
+    "country_of_origin": {
+      "value": "India",
+      "confidence": 0.75,
+      "status": "found",
+      "evidence": "Country of Origin inferred from Indian city/address",
+      "bbox": null
+    },
+    "manufacturer": {
+      "value": "by: RELIANCE RETAIL LIMITED 3rd Floor Court House, Tilak Marg, Dhobi Talao,",
+      "confidence": 0.46,
+      "status": "found",
+      "evidence": "Marketed by: RELIANCE RETAIL LIMITED 3rd Floor Court House, Tilak Marg, Dhobi Talao,",
+      "bbox": [
+        653,
+        122,
+        1166,
+        178
+      ]
+    },
+    "consumer_care": {
+      "value": "CC_RRL@RIL.COM",
+      "confidence": 0.85,
+      "status": "found",
+      "evidence": "CC_RRL@RIL.COM",
+      "bbox": null
+    },
+    "batch_number": {
+      "value": "KV061705",
+      "confidence": 0.24,
+      "status": "found",
+      "evidence": "BATChNO KV061705",
+      "bbox": [
+        138,
+        816,
+        412,
+        872
+      ]
+    },
+    "unit_sale_price": {
+      "value": 1.45,
+      "confidence": 0.24,
+      "status": "found",
+      "evidence": "USP ? 1,45per g BATChNO : KV061705 Fclod tastes better",
+      "bbox": [
+        137,
+        763,
+        371,
+        827
+      ]
+    }
+  },
+  "compliance_report": {
+    "status": "NEEDS_VERIFICATION",
+    "passed": [
+      {
+        "rule_id": "PC-001",
+        "field": "manufacturer",
+        "name": "Manufacturer / Packer / Importer",
+        "message": "Required information detected.",
+        "confidence": 0.46,
+        "source": "Rule 6",
+        "value": "by: RELIANCE RETAIL LIMITED 3rd Floor Court House, Tilak Marg, Dhobi Talao,"
+      },
+      {
+        "rule_id": "PC-003",
+        "field": "product_name",
+        "name": "Common / Generic Name",
+        "message": "Required information detected.",
+        "confidence": 1.0,
+        "source": "Rule 6",
+        "value": "CASHEW"
+      },
+      {
+        "rule_id": "PC-004",
+        "field": "net_quantity",
+        "name": "Net Quantity",
+        "message": "Required information detected.",
+        "confidence": 0.65,
+        "source": "Rule 6",
+        "value": "500 g"
+      },
+      {
+        "rule_id": "PC-006",
+        "field": "best_before",
+        "name": "Best Before / Use By",
+        "message": "Required information detected.",
+        "confidence": 0.6,
+        "source": "Rule 6",
+        "value": "Best Before / Use By label present (date unreadable by OCR — manual verification required)"
+      },
+      {
+        "rule_id": "PC-007",
+        "field": "mrp",
+        "name": "Maximum Retail Price",
+        "message": "Required information detected.",
+        "confidence": 0.54,
+        "source": "Rule 6",
+        "value": "725.0"
+      },
+      {
+        "rule_id": "PC-008",
+        "field": "consumer_care",
+        "name": "Consumer Care Details",
+        "message": "Required information detected.",
+        "confidence": 0.85,
+        "source": "Rule 6",
+        "value": "CC_RRL@RIL.COM"
+      }
+    ],
+    "verification": [
+      {
+        "rule_id": "PC-005",
+        "field": "manufacturing_date",
+        "name": "Manufacturing / Packing Date",
+        "message": "Month and year of manufacture, packing or import could not be detected.",
+        "confidence": 0.0,
+        "source": "Rule 6",
+        "severity": "MEDIUM"
+      },
+      {
+        "rule_id": "PC-009",
+        "field": "batch_number",
+        "name": "Batch / Lot / Code Number",
+        "message": "Detected with low confidence (24%). Manual verification recommended.",
+        "confidence": 0.24,
+        "source": "Rule 6",
+        "severity": "MEDIUM",
+        "value": "KV061705"
+      },
+      {
+        "rule_id": "PC-010",
+        "field": "unit_sale_price",
+        "name": "Unit Sale Price",
+        "message": "Detected with low confidence (24%). Manual verification recommended.",
+        "confidence": 0.24,
+        "source": "Rule 6",
+        "severity": "MEDIUM",
+        "value": "1.45"
+      }
+    ],
+    "violations": [],
+    "summary": {
+      "total_rules": 9,
+      "passed": 6,
+      "needs_review": 3,
+      "violations": 0
+    }
+  }
+}
